@@ -1,0 +1,25 @@
+[template]
+cargo_generate_version = ">=0.10.0"
+
+[placeholders.repo-name]
+type = "string"
+prompt = "Repo name?"
+
+[placeholders.project-description]
+type = "string"
+prompt = "Project description?"
+
+[placeholders.username]
+type = "string"
+prompt = "GitHub username (or organization)?"
+default = "n8henrie"
+
+[placeholders.author-name]
+type = "string"
+default = "Nathan Henrie"
+prompt = "Author name?"
+
+[placeholders.email]
+type = "string"
+default = "nate@n8henrie.com"
+prompt = "Email?"
