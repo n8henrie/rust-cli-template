@@ -13,10 +13,10 @@ jobs:
         run: |
           cat <<'EOF' > template-values.txt
           [values]
-          repo-name = test-rust-cli
+          repo-name = "test-rust-cli"
           project-description = "does some stuff"
           author-name = "Nathan Henrie"
-          email=foo@bar.com
+          email = "foo@bar.com"
           EOF
       - uses: cargo-generate/cargo-generate-action@v0.18.3
         with:
