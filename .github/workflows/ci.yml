@@ -12,11 +12,11 @@ jobs:
       - uses: cargo-generate/cargo-generate-action@v0.18.3
         with:
           name: ${{ env.PROJECT_NAME }}
-          other: '
-            --define repo-name=test-rust-cli
-            --define project-description=\"does some stuff\"
-            --define author-name=\"Nathan Henrie\"
-            --define email=foo@bar.com
+          other: '\
+            --define repo-name=test-rust-cli \
+            --define project-description=\"does some stuff\" \
+            --define author-name=\"Nathan Henrie\" \
+            --define email=foo@bar.com \
             '
       - uses: actions-rs/toolchain@v1
         with:
