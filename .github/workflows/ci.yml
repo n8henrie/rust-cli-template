@@ -13,9 +13,9 @@ jobs:
         with:
           name: ${{ env.PROJECT_NAME }}
           other: |
-            --define repo-name=test-rust-cli \
-            --define project-description="does some stuff" \
-            --define author-name="Nathan Henrie" \
+            --define repo-name=test-rust-cli
+            --define project-description="does some stuff"
+            --define author-name="Nathan Henrie"
             --define email=foo@bar.com
       - uses: actions-rs/toolchain@v1
         with:
