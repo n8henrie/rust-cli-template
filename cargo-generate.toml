@@ -23,3 +23,8 @@ prompt = "Author name?"
 type = "string"
 default = "nate@n8henrie.com"
 prompt = "Email?"
+
+[placeholders.year]
+type = "string"
+default = "2024"
+prompt = "Year?"
