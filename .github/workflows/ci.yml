@@ -17,6 +17,7 @@ jobs:
           project-description = "does some stuff"
           author-name = "Nathan Henrie"
           email = "foo@bar.com"
+          year = "2024"
           EOF
       - uses: cargo-generate/cargo-generate-action@v0.18.3
         with:
