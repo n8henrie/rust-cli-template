@@ -4,7 +4,7 @@ version = "0.1.0"
 authors = ["{{ author-name }} <{{ email }}>"]
 readme = "README.md"
 license = "MIT"
-edition = "2021"
+edition = "2024"
 description = "{{ project-description }}"
 repository = "https://github.com/{{ username }}/{{ repo-name }}"
 
