@@ -1,7 +1,7 @@
-use assert_cmd::Command;
+const EXE: &str = env!("CARGO_BIN_EXE_hc-runner");
 
 #[test]
 fn test() {
-    let mut cmd = Command::cargo_bin("{{ project-name }}").unwrap();
-    cmd.assert().success();
+    let result = process::Command::new(EXE).args([]).output().unwrap();
+    assert!(result.status.success());
 }
